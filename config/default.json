@@ -1,0 +1,4 @@
+{
+  "MongoDB": "mongodb+srv://lukescheller:yitzHVTOLCly0sZi@booknotesv1.zjd9la8.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "token"
+}

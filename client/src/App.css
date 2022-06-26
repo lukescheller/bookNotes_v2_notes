@@ -1,0 +1,197 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*main container*/
+#mainContainer {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+/*inner container*/
+#innerContainer {
+  border: 1px solid none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*main profile div - profile*/
+#mainProfileDiv {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+  width: 75%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+/*main profile div - img*/
+#mainProfileDivImg img {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+  width: 225px;
+}
+
+/*main profile div - stats*/
+#mainProfileDivStats {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+  text-align: left;
+}
+
+/*submit error*/
+#submitError {
+  border: 1px solid none;
+  background-color: #ed4337;
+  color: white;
+  border-radius: 5px;
+  width: 75%;
+  margin: 5px;
+  padding: 20px;
+}
+
+/*main submit div*/
+#mainSubmitDiv {
+  border: 1px solid none;
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*main submit div - submit*/
+#mainSubmitDivSubmit {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+}
+
+/*main submit div - edit*/
+#mainSubmitDivEdit {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+}
+
+/*comments div - profile*/
+#personalCommentsDiv {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+  width: 75%;
+}
+
+#mainDiv_signIn {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+#formDiv {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+  width: 50%;
+}
+
+#errorDiv {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+  background-color: #ed4337;
+  color: white;
+  border-radius: 5px;
+}
+
+#usernameDiv {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+}
+
+#bioDiv {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+}
+
+#emailDiv {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+}
+
+#passwordDiv {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+}
+
+#imgDiv {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+}
+
+#submitBtDiv {
+  border: 1px solid none;
+  margin: 5px;
+  padding: 5px;
+}
+
+#dividerDiv {
+  border: 1px solid black;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 990px) {
+  #formDiv {
+    border: 1px solid none;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+}
